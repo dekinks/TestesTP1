@@ -43,6 +43,6 @@ if __name__ == '__main__':
         sys.exit(0)
 
     for address_family in ['v4', 'v6']:
-        for msg_type in ['single_msg_single_pkg', 'single_msg_multiple_pkg', 'multiple_msg_single_pkg']:
+        for msg_type in ['single_msg_single_pkg', 'multiple_msg_single_pkg']:
             print('Testing IP' + address_family, msg_type)
             run_basic_tests(exec_path, address_family, port, msg_type)
