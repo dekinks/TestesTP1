@@ -1,25 +1,18 @@
 add bulbasaur
 add charmander
 list
-add mew
+add torchic squirtle
 add eevee
-add rhyhorn
-add rhyperior
-add dialga
-add bulbasaur
-add sylveon
-add umbreon
-add steenee
-add rhyhorn
-add riolu
-add mightyena
-add luvdisc
-add ludicolo
-add ho-oh
-add charizardcharmeleon
-add machoke
-add jynx
-add glaceon
-add omanyte
-add kabuto
+add mew
+add farfetch'd
+add farfetchd
+add machamp
+add leafeon
+add magikarp
+add gyarados
+remove gyarados
+add mew
+remove pachirisu
+add piloswine
+add roselia
 kill
