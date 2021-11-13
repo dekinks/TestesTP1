@@ -15,8 +15,32 @@ O programa de testes foi desenvolvido em Python3. Para executá-lo:
 
 `python3 run_tests.py <server> <port>`
 
-onde <server> é o caminho para o executável do seu servidor e <port> é a porta na qual ele deve ser executado.
+onde **server** é o caminho para o executável (binário) do seu servidor e **port** é a porta na qual ele deve ser executado.
 
-Exemplo:
+**Exemplo:**
+`python3 run_tests.py /home/aluno/server 9999`
 
-`python3 run_tests.py /home/aluno/servidor 9999`
+## Saída
+
+A saída do programa indica quais casos de teste foram executados com sucesso e quais falharam. Exemplo de saída onde todos casos de teste foram executados com sucesso:
+
+`Testing IPv4 single_msg_single_pkg
+test_0	[OK]
+test_1	[OK]
+test_2	[OK]
+test_3	[OK]
+Testing IPv4 single_msg_multiple_pkg
+test_0	[OK]
+test_1	[OK]
+test_2	[OK]
+test_3	[OK]
+Testing IPv6 single_msg_single_pkg
+test_0	[OK]
+test_1	[OK]
+test_2	[OK]
+test_3	[OK]
+Testing IPv6 single_msg_multiple_pkg
+test_0	[OK]
+test_1	[OK]
+test_2	[OK]
+test_3	[OK]`
