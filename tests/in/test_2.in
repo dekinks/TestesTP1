@@ -1,0 +1,23 @@
+add torchic
+add combusken
+add blaziken
+list
+exchange torchic mudkip
+list
+exchange treecko cascoon
+exchange combusken blaziken
+exchange combusken marshtomp
+exchange blaziken swampert
+list
+add treecko grovyle sceptile pikachu
+list
+remove pikachu
+remove sceptile
+remove grovyle
+list
+remove treecko
+remove swampert
+remove marshtomp
+remove mudkip
+list
+kill
